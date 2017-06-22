@@ -14,7 +14,7 @@
     ],
     "collectCoverage": true
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An npm package for the eegeo.js library",
   "main": "index.js",
   "jsnext:main": "index.mjs",
