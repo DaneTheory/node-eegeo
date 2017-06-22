@@ -1,0 +1,2 @@
+{"/Users/Nietzsche/REPOS/node-eegeo/src/index.js": {"path":"/Users/Nietzsche/REPOS/node-eegeo/src/index.js","statementMap":{"0":{"start":{"line":2,"column":2},"end":{"line":2,"column":15}}},"fnMap":{"0":{"name":"sum","decl":{"start":{"line":1,"column":24},"end":{"line":1,"column":27}},"loc":{"start":{"line":1,"column":34},"end":{"line":3,"column":1}},"line":1}},"branchMap":{},"s":{"0":2},"f":{"0":2},"b":{},"_coverageSchema":"332fd63041d2c1bcb487cc26dd0d5f7d97098a6c","hash":"b87d0eaff16c2dbf07eb5e560dbd15a109323ad0"}
+}
