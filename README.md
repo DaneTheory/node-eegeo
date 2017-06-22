@@ -1,8 +1,7 @@
 # node-eegeo
-==================================================================================================
-[![Build Status](https://travis-ci.org/DaneTheory/node-eegeo.svg?branch=master)](https://travis-ci.org/DaneTheory/node-eegeo)
 
-[![Coverage Status](https://coveralls.io/repos/github/DaneTheory/node-eegeo/badge.svg?branch=master)](https://coveralls.io/github/DaneTheory/node-eegeo?branch=master)
+[![Build Status](https://travis-ci.org/DaneTheory/node-eegeo.svg?branch=master)](https://travis-ci.org/DaneTheory/node-eegeo) [![Coverage Status](https://coveralls.io/repos/github/DaneTheory/node-eegeo/badge.svg?branch=master)](https://coveralls.io/github/DaneTheory/node-eegeo?branch=master)
+
 ==================================================================================================
 
 TODO: ADD BRIEF DESCRIPTION
