@@ -1,5 +1,17 @@
 {
   "name": "node-eegeo",
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "bower_components",
+      "shared"
+    ],
+    "collectCoverage": true
+  },
   "version": "0.0.1",
   "description": "An npm package for the eegeo.js library",
   "main": "index.js",
@@ -14,17 +26,15 @@
       "transform-runtime"
     ]
   },
-  "eslintConfig": {
-    "parser": "babel-eslint",
-    "extends": "airbnb-base"
-  },
   "engines": {
     "node": ">=8.1.2"
   },
   "scripts": {
-    "test": "jest --notify",
+    "test": "npm run test:jest && npm run lint",
+    "test:jest:watch": "jest --watch",
+    "test:jest": "jest",
     "webpack": "webpack --progress --colors --watch",
-    "lint": "eslint src test tools"
+    "lint": "eslint --fix src test tools"
   },
   "repository": {
     "type": "git",
@@ -61,30 +71,27 @@
     "coveralls": "^2.13.1",
     "del": "^3.0.0",
     "eslint": "^4.0.0",
-    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-prettier": "^2.2.0",
     "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-react": "^7.1.0",
     "istanbul": "^0.4.5",
     "jest": "^20.0.4",
     "jest-cli": "^20.0.4",
+    "jest-validate": "^20.0.3",
+    "prettier": "^1.4.4",
+    "prettier-eslint": "^6.3.0",
     "rollup": "^0.43.0",
     "rollup-plugin-babel": "^2.7.1",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-uglify": "^2.0.1",
-    "sinon": "^2.3.5",
-    "webpack": "^3.0.0"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "jsx"
-    ],
-    "moduleDirectories": [
-      "node_modules",
-      "bower_components",
-      "shared"
-    ]
+    "sinon": "^2.3.5"
   },
   "dependencies": {
     "babel-runtime": "^6.23.0"
-  }
+  },
+  "false": {}
 }
