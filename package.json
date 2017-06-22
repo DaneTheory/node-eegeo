@@ -1,0 +1,29 @@
+{
+  "name": "node-eegeo",
+  "version": "0.0.1",
+  "description": "An npm package for the eegeo.js library",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.1.2"
+  },
+  "scripts": {
+    "test": "jest --reporter spec",
+    "webpack": "webpack --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaneTheory/node-eegeo.git"
+  },
+  "keywords": [
+    "eegeo",
+    "eegeojs",
+    "eegeo.js",
+    "node-eegeo"
+  ],
+  "author": "Branden Dane <danetheory@gmail.com> (http://www.danetheory.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaneTheory/node-eegeo/issues"
+  },
+  "homepage": "https://github.com/DaneTheory/node-eegeo#readme"
+}
